@@ -22,3 +22,8 @@ sudo dnf install -y podman
 # pulls down the image 
 podman pull container-registry.oracle.com/database/free:latest
 ```
+
+
+## Read more 
+
+- [podman documentation](https://podman.io/docs)
