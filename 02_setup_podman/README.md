@@ -1,4 +1,4 @@
-# Setup 
+# Setup podman and oracle26ai 
 
 <a href="" target="_blank">
   <img src="https://github.com/kokchun/assets/blob/main/FOLDER_NAME/.png?raw=true" alt="DESCRIPTION" width="600">
@@ -18,6 +18,7 @@ Now install podman
 
 ```bash
 sudo dnf install -y podman
+sudo dnf install -y podman-compose
 ```
 
 ## Pull down oracle26ai image 
@@ -36,11 +37,32 @@ After it is finished you can check your image with this command
 podman images 
 ```
 
+## Now spin up a container from your downloaded image
 
+We will spin up a container using podman-compose. Create a compose.yaml file and place it in the root of your repo and copy the code from compose.yaml in this repo.
 
-## Check podman
+Then create a .env file which contains the variable 
 
+```env
+ORACLE_PWD=supah_secret_passw0rd0
+```
 
+Also change permission of you .env file to 600 so that only you can read and write to it 
+
+```bash
+chmod 600 .env
+```
+
+> [!IMPORTANT]
+> make sure that your gitignore has .env so that it is not included in version control
+
+Now run 
+
+```bash
+podman compose
+```
+
+to spin up the container
 
 ## Read more 
 
