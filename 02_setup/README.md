@@ -4,9 +4,9 @@
   <img src="https://github.com/kokchun/assets/blob/main/FOLDER_NAME/.png?raw=true" alt="DESCRIPTION" width="600">
 </a>
 
-This setup requires that you have already installed a RHEL based linux distribution such as oracle linux. You could have it in a virtual machine such as one inside of VirtualBox. 
+This setup uses podman for containerbased installation as it is much simpler and works for all operating systems. We will use podman here, which is an open source container tool.
 
-## Install
+## Update system and install podman
 
 Start with updating your system with this command 
 
@@ -18,10 +18,28 @@ Now install podman
 
 ```bash
 sudo dnf install -y podman
+```
 
+## Pull down oracle26ai image 
+
+```bash
 # pulls down the image 
 podman pull container-registry.oracle.com/database/free:latest
 ```
+
+> [!NOTE]
+> it takes some time for podman to pull down the image as it is huge ca 9GB 
+
+After it is finished you can check your image with this command
+
+```bash
+podman images 
+```
+
+
+
+## Check podman
+
 
 
 ## Read more 
