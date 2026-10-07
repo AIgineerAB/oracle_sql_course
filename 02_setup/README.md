@@ -64,6 +64,19 @@ podman compose up -d
 
 to spin up the container.
 
+## Run a hello world PL/SQL script
+
+Now it's time to create a PL/SQL script that outputs a text. Create a hello.pls script and type in the code in this repo section.
+
+Use the following command to run the script. Note that you need to source your .env first so that environment variable ORACLE_PWD is not empty. 
+
+```bash
+podman exec -i oracle-free sqlplus -s system/"$ORACLE_PWD@FREEPDB1" < hello.pls
+```
+
+
+
+
 ## Few useful podman commands
 
 Here are a few other useful podman commands
