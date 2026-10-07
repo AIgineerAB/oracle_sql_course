@@ -74,7 +74,19 @@ Use the following command to run the script. Note that you need to source your .
 podman exec -i oracle-free sqlplus -s system/"$ORACLE_PWD@FREEPDB1" < hello.pls
 ```
 
+## Create a script to simplify this run 
 
+Type in the code from `orac` and make a symlink so that it is available from anywhere 
+
+```bash
+ln -s "$PWD/orac" ~/.local/bin/orac
+```
+
+Then you can basically run 
+
+```bash
+orac <script_name>
+```
 
 
 ## Few useful podman commands
