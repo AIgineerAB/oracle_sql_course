@@ -59,10 +59,34 @@ chmod 600 .env
 Now run 
 
 ```bash
-podman compose
+podman compose up -d
 ```
 
-to spin up the container
+to spin up the container.
+
+## Few useful podman commands
+
+Here are a few other useful podman commands
+
+```bash
+# check which images you have
+podman images
+
+# check running containers
+podman ps
+
+# check all containers, even closed ones
+podman ps -a
+
+# check volumes
+podman volume ls
+
+# shutdown container
+podman compose down
+```
+
+> [!NOTE]
+> you need to be in the folder where compose.yaml live in order to do podman compose up and podman compose down 
 
 ## Read more 
 
