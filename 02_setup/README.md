@@ -1,7 +1,7 @@
 # Setup podman and oracle26ai 
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/FOLDER_NAME/.png?raw=true" alt="DESCRIPTION" width="600">
+<a href="https://youtu.be/BG19v6LHVNc" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/oracledb/setup_oracle.png?raw=true" alt="DESCRIPTION" width="600">
 </a>
 
 This setup uses podman for containerbased installation as it is much simpler and works for all operating systems. We will use podman here, which is an open source container tool.
