@@ -3,13 +3,13 @@
 **Part 1 - setup oracle26ai with podman**
 
 <a href="https://youtu.be/BG19v6LHVNc" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/oracledb/setup_oracle.png?raw=true" alt="DESCRIPTION" width="600">
+  <img src="https://github.com/kokchun/assets/blob/main/oracledb/setup_oracle.png?raw=true" alt="setup oracl" width="600">
 </a>
 
 **Part 2 - setup sqlcl**
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/oracledb/setup_sqlcl.png?raw=true" alt="DESCRIPTION" width="600">
+<a href="https://youtu.be/9JIvpiZU3OE" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/oracledb/setup_sqlcl.png?raw=true" alt="setup sqlcl command line" width="600">
 </a>
 
 
