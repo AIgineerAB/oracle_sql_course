@@ -6,6 +6,8 @@ services:
       - "1521:1521"
     environment:
       ORACLE_PWD: ${ORACLE_PWD}
+      NLS_LANG: AMERICAN_AMERICA.AL32UTF8
+      LANG: C.UTF-8
     volumes:
       - oradata:/opt/oracle/oradata
     restart: unless-stopped
@@ -18,3 +20,5 @@ services:
 
 volumes:
   oradata:
+
+
