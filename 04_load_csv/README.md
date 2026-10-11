@@ -5,6 +5,9 @@
 </a>
 
 
+Data used in this [lecture comes from here](https://www.kaggle.com/datasets/kaggle/sf-salaries)
+
+
 To avoid line wrapping and allow for scrolling, you can pipe the results into the almighty pager less 
 
 ```bash
