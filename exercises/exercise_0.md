@@ -1,8 +1,8 @@
-# Exercise 0 -
+# Exercise 0 - SQL fundamentals
 
-In this exercise, you get to familiarize yourself with ...
+In this exercise, you get to familiarize yourself with Oracle database, oracle sql and sqlcl. 
 
-## 0. practical exercise
+## 0. 
 
 DESCRIPTION
 
@@ -46,13 +46,12 @@ Fill in this table either by copying this into your own markdown file or copy it
 
 | terminology | explanation |
 | ----------- | ----------- |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
+| SELECT      |             |
+| query       |             |
+| WHERE       |             |
+| pl/sql      |             |
+| SQL         |             |
+| SQLcl       |             |
+| podman      |             |
 |             |             |
 |             |             |

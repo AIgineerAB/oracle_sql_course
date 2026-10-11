@@ -1,4 +1,4 @@
-SET SQLFORMAT ANSICONSOLE
+
 SET PAGESIZE 1000
 
 DESC system.salaries_sf;
