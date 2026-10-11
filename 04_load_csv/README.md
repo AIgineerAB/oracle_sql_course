@@ -1,7 +1,7 @@
 # Load and explore csv data 
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/FOLDER_NAME/.png?raw=true" alt="DESCRIPTION" width="600">
+<a href="https://youtu.be/JqvrH7XXFUI" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/oracledb/load_csv.png?raw=true" alt="load csv using sqlcl" width="600">
 </a>
 
 
