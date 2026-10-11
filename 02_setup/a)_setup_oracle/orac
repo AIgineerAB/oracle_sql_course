@@ -4,18 +4,24 @@ script_path="$(readlink -f "$BASH_SOURCE")"
 script_dir="$(dirname "$script_path")"
 
 # .env has the password ORACLE_PWD
-source "$script_dir/../.env"
+source "$script_dir/.env"
 
-
+sqlcl(){
+    podman compose -f "$script_dir/compose.yaml" --profile tools run --rm -T \
+    "${MOUNT_ARGS[@]}" \
+    sqlcl -S system/"$ORACLE_PWD"@//oracle-free:1521/FREEPDB1 "$@"
+}
  
 file="$1"
+MOUNT_ARGS=()
  
 if [[ -f "$file" ]]; then
-    # -i -> stdin open
-    # sqlplus -s -> oracles command line client in silent mode
-    # system -> DB user
-    # FREEPDB1 -> default pluggable database service name
-    podman exec -i oracle-free sqlplus -s system/"$ORACLE_PWD@FREEPDB1" < "$file"
+    sql_abs="$(readlink -f "$file")"
+    sql_dir="$(dirname "$sql_abs")"
+    sql_name="$(basename "$sql_abs")"
+    MOUNT_ARGS=(-v "$sql_dir:/work:ro,Z" -w /work)
+
+    sqlcl "@/work/$sql_name"
 else
-    podman exec -i oracle-free sqlplus system/"$ORACLE_PWD@FREEPDB1"
+    sqlcl
 fi
