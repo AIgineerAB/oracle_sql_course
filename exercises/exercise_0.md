@@ -2,23 +2,15 @@
 
 In this exercise, you get to familiarize yourself with Oracle database, oracle sql and sqlcl. 
 
-## 0. 
+## 0. Create employees data 
 
-DESCRIPTION
+In this exercise, take the [code from here](https://github.com/AIgineerAB/oracle_sql_course/tree/main/exercises/assets/0) to create an employees table and insert data into it. 
+When that is done, describe the table to see the fields and its data types, also do select all columns and all rows to quickly inspect the data. 
 
-&nbsp; a)
 
-&nbsp; b)
+## 1. Explore employees data
 
-&nbsp; c)
-
-&nbsp; d)
-
-&nbsp; e)
-
-## 1. practical exercise
-
-DESCRIPTION
+In previous exercise you have created the table employees. Now in this exercise it's time to explore it to understand and find key insights from it.
 
 &nbsp; a)
 
