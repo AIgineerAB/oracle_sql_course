@@ -22,6 +22,28 @@ In previous exercise you have created the table employees. Now in this exercise 
 
 &nbsp; e)
 
+## 2. Filter salaries data
+
+In lecture 04_load_csv, we have loaded `Salaries.csv` into a table called `salaries_sf`. Do the exercises below on this table
+
+&nbsp; a) Count number of people with base salary over 100k. 
+
+&nbsp; b) Count number of people with base salary over 100k, 150k, 200k 
+
+&nbsp; c) Count proportion of people with base salary over 100k in the table
+
+&nbsp; d) Count number of people that don't get overtime pay
+
+&nbsp; e) Calculate the min, average, median and max base salary. 
+
+&nbsp; f) Repeat for total pay with benefits also.
+
+&nbsp; g) Get a list of the top 1% base salary and export it to csv. It should also be ordered so that the top has highest base salary.
+
+
+
+
+
 ## 2. Theory questions
 
 DESCRIPTION
