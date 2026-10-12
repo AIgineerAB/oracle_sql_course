@@ -11,6 +11,8 @@ Data used in this [lecture comes from here](https://www.kaggle.com/datasets/kagg
 To avoid line wrapping and allow for scrolling, you can pipe the results into the almighty pager less 
 
 ```bash
+-- -R color escape sequences to render colors
+-- -S chop long lines
 orac script.sql | less -RS
 ```
 
