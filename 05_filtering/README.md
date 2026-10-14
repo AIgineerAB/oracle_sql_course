@@ -1,7 +1,7 @@
 # Filtering data with where and case
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/oracledb/?raw=true" alt="load csv using sqlcl" width="600">
+<a href="https://youtu.be/aACAcEddK6U" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/oracledb/filtering.png?raw=true" alt="load csv using sqlcl" width="600">
 </a>
 
 ## Load excel data
