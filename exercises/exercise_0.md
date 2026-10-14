@@ -12,15 +12,15 @@ When that is done, describe the table to see the fields and its data types, also
 
 In previous exercise you have created the table employees. Now in this exercise it's time to explore it to understand and find key insights from it.
 
-&nbsp; a)
+&nbsp; a) Count how many rows there are 
 
-&nbsp; b)
+&nbsp; b) Select top five rows 
 
-&nbsp; c)
+&nbsp; c) Select top 10% of the rows 
 
-&nbsp; d)
+&nbsp; d) Find all first names and their field for those with salaries less than 40k.
 
-&nbsp; e)
+&nbsp; e) Find all rows with salaries between 40 and 50k. Also order this by top salaries. 
 
 ## 2. Filter salaries data
 
@@ -44,15 +44,23 @@ In lecture 04_load_csv, we have loaded `Salaries.csv` into a table called `salar
 
 
 
-## 2. Theory questions
+## 3. Theory questions
 
-DESCRIPTION
 
-&nbsp; a)
+&nbsp; a) What is SQL, and why is it important in relational databases?
 
-&nbsp; b)
+&nbsp; b) Explain the difference between FROM and WHERE clauses.
 
-&nbsp; c)
+&nbsp; c) What is the purpose of using podman for Oracle SQL?
+
+&nbsp; d) What are the primary functions of the Data Definition Language (DDL) in SQL?
+
+&nbsp; e) What are the primary functions of the Data Query Language (DQL) in SQL?
+
+&nbsp; f) What are the difference between SQLplus and SQLcl in Oracle?
+
+&nbsp; g) What are the differences between Oracle SQL and PL/SQL?
+
 
 ## Glossary
 
@@ -67,5 +75,14 @@ Fill in this table either by copying this into your own markdown file or copy it
 | SQL         |             |
 | SQLcl       |             |
 | podman      |             |
+| CASE WHEN   |             |
+| CRUD        |             |
+| aggregation |             |
+| GROUP BY    |             |
+| ALTER       |             |
+| DROP        |             |
+| csv         |             |
+|             |             |
+|             |             |
 |             |             |
 |             |             |
