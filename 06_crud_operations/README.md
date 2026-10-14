@@ -1,7 +1,7 @@
 # CRUD operations and core categories of SQL
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/FOLDER_NAME/.png?raw=true" alt="DESCRIPTION" width="600">
+<a href="https://youtu.be/ibS_6Ucg9WM" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/oracledb/crud.png?raw=true" alt="crud operations" width="600">
 </a>
 
 ## CRUD operations
