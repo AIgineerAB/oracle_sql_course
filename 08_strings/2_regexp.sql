@@ -1,12 +1,3 @@
--- trim and replace to clean a string
-SELECT 
-    s,
-    TRIM(s),
-    LTRIM(s),
-    RTRIM(s),
-    REPLACE(s,'l','x'),
-    RTRIM(INITCAP(REPLACE(TRIM(s), '   ', ' ')),'h') AS cleaned
-FROM (SELECT '    hEllO   Oracleh   ' AS s); -- subquery
 
 -- clean space with regexp
 SELECT 

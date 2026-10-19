@@ -36,6 +36,15 @@ SELECT
     RPAD('name: ', 9,'.') AS right_pad,
     REVERSE('abcd') AS rev;
 
+-- trim and replace to clean a string
+SELECT 
+    s,
+    TRIM(s),
+    LTRIM(s),
+    RTRIM(s),
+    REPLACE(s,'l','x'),
+    RTRIM(INITCAP(REPLACE(TRIM(s), '   ', ' ')),'h') AS cleaned
+FROM (SELECT '    hEllO   Oracleh   ' AS s); -- subquery
 
 
 EXIT
