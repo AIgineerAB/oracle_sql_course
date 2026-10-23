@@ -11,7 +11,7 @@
 
 **part 2 - regular expression**
 
-
 ## Other videos 📹
 
 ## Read more 👓
+- [regexp table SQL - geekforgeeks](https://www.geeksforgeeks.org/sql/regular-expressions-in-sql/)
