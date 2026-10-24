@@ -1,8 +1,8 @@
 # CTA - CREATE TABLE AS 
 
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/FOLDER_NAME/.png?raw=true" alt="DESCRIPTION" width="600">
+<a href="https://youtu.be/XMVWKLoQBBU" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/oracledb/ctas.png?raw=true" alt="oracle" width="600">
 </a>
 
 
